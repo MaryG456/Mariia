@@ -1,0 +1,49 @@
+.App {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px black solid;
+  margin-top: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 20px;
+}
+.blog-post {
+  background-color: #0000ff;
+  width: 75%;
+  float: left;
+  padding-right: 30px;
+}
+.other-posts {
+  background-color: green;
+  width: 25%;
+  float: left;
+}
+.outer-box {
+  background-color: #ffff00;
+  float: left;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.other {
+  margin-bottom: 40px;
+}
+
+.outer-box img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  float: left;
+}
